@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="design.css">  
+  <title>Software Engineer Job Board</title>
+</head>
+
+<div class="filters">
+    <form>
+      <label>Job Type:</label>
+      <select id="job-type-filter">
+        <option value="all">All</option>
+        <option value="full-time">Full-time</option>
+        <option value="part-time">Part-time</option>
+        <option value="contract">Contract</option>
+      </select>
+  
+      <label>Location:</label>
+      <input type="text" id="location-filter" placeholder="Enter a city or zip code">
+  
+      <button type="submit">Filter</button>
+    </form>
+</div>
+
+
+<div class="search-container">
+    <form>
+      <input type="text" placeholder="Search jobs by keywords" id="search-input">
+      <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+
+<div class="sort-container">
+    <label>Sort by:</label>
+    <select id="sort-by">
+      <option value="newest">Newest</option>
+      <option value="oldest">Oldest</option>
+      <option value="location">Location</option>
+    </select>
+</div>
+  
+<body>
+  <h1>Available Software Engineer Jobs</h1>
+  <ul>
+    <li>
+      <h2>Job Title: Full Stack Developer</h2>
+      <p>Company: XYZ Inc.</p>
+      <p>Location: San Francisco, CA</p>
+      <p>Description: We are looking for a full stack developer with experience in React and Node.js. The candidate will work on building and maintaining our e-commerce platform.</p>
+      <a href="https://www.xyzinc.com/careers">Apply Now</a>
+    </li>
+    <li>
+      <h2>Job Title: Senior Python Developer</h2>
+      <p>Company: ABC Corp.</p>
+      <p>Location: New York, NY</p>
+      <p>Description: ABC Corp. is seeking a senior Python developer to work on our data analytics platform. The candidate should have experience with Pandas and NumPy.</p>
+      <a href="https://www.abccorp.com/careers">Apply Now</a>
+    </li>
+    <li>
+      <h2>Job Title: Cloud Engineer</h2>
+      <p>Company: DEF Inc.</p>
+      <p>Location: Chicago, IL</p>
+      <p>Description: DEF Inc. is looking for a cloud engineer with experience in AWS and Azure. The candidate will be responsible for maintaining and scaling our cloud infrastructure.</p>
+      <a href="https://www.definc.com/careers">Apply Now</a>
+    </li>
+    <li>
+        <h2>Job Title: AI Engineer</h2>
+        <p>Company: GHI Inc.</p>
+        <p>Location: Los Angeles, CA</p>
+        <p>Description: GHI Inc. is seeking an AI engineer with experience in TensorFlow and PyTorch.</p>
+        <a href="https://www.ghiinc.com/careers">Apply Now</a>
+    </li>
+  </ul>
+</body>
+<script src="main.js"></script>
+
+<div class="categories-container">
+    <ul>
+      <li><a href="#" data-category="all">All</a></li>
+      <li><a href="#" data-category="web-development">Web Development</a></li>
+      <li><a href="#" data-category="data-science">Data Science</a></li>
+      <li><a href="#" data-category="devops">DevOps</a></li>
+      <li><a href="#" data-category="mobile-development">Mobile Development</a></li>
+    </ul>
+</div>
+
+<div class="pagination">
+    <a href="#" class="prev">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#" class="next">&raquo;</a>
+</div>
+
+
+</html>
