@@ -1,0 +1,37 @@
+{
+    "jobs": [
+      {
+        "title": "Full Stack Developer",
+        "company": "XYZ Inc.",
+        "location": "San Francisco, CA",
+        "type": "Full-time",
+        "description": "We are looking for a full stack developer with experience in React and Node.js. The candidate will work on building and maintaining our e-commerce platform.",
+        "apply_link": "https://www.xyzinc.com/careers"
+      },
+      {
+        "title": "Senior Python Developer",
+        "company": "ABC Corp.",
+        "location": "New York, NY",
+        "type": "Part-time",
+        "description": "ABC Corp. is seeking a senior Python developer to work on our data analytics platform. The candidate should have experience with Pandas and NumPy.",
+        "apply_link": "https://www.abccorp.com/careers"
+      },
+      {
+        "title": "Cloud Engineer",
+        "company": "DEF Inc.",
+        "location": "Chicago, IL",
+        "type": "Full-time",
+        "description": "DEF Inc. is looking for a cloud engineer with experience in AWS and Azure. The candidate will be responsible for maintaining and scaling our cloud infrastructure.",
+        "apply_link": "https://www.definc.com/careers"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "GHI Inc.",
+        "location": "Los Angeles, CA",
+        "type": "Contract",
+        "description": "GHI Inc. is seeking an AI engineer with experience in TensorFlow and PyTorch.",
+        "apply_link": "https://www.ghiinc.com/careers"
+      }
+    ]
+  }
+  

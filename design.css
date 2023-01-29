@@ -1,0 +1,202 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #ccc;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: #00bfff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #008080;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .pagination a.prev,
+  .pagination a.next {
+    font-weight: bold;
+  }
+  
+  .pagination a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Search bar */
+  .search-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-container button[type="submit"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #00bfff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #008080;
+  }
+  
+  /* Sort by */
+  .sort-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .sort-container select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Job Categories */
+  .categories-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .categories-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .categories-container li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+  
+  .categories-container a {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .categories-container a:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .filters form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .filters label,
+  .filters select,
+  .filters input,
+  .filters button {
+    margin: 10px;
+  }
+  
+  .filters input {
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filters button {
+    padding: 12px 20px;
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
